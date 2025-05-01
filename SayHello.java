@@ -1,5 +1,10 @@
+import java.util.Scanner;
 public class SayHello {
     public static void main(String args[]) {
-        System.out.println("Hola");
+        String nombre;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingresa tu nombre");
+        nombre = sc.nextLine();
+        System.out.println("Hola "+nombre);
     }
 }
