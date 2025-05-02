@@ -6,5 +6,6 @@ public class SayHello {
         System.out.println("Ingresa tu nombre");
         nombre = sc.nextLine();
         System.out.println("Hola "+nombre);
+        System.out.println("Erdad");
     }
 }
